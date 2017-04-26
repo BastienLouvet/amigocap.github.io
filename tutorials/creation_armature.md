@@ -83,7 +83,7 @@ A la fin de cette étape, vous devez avoir obtenu l’armature complète de votr
 Exemple:
 
 ![Exemple](http://img4.hostingpics.net/pics/125530tuto36.png)
- Ici, je veux positionner mon os entre deux marqueurs, je crée donc deux contraintes pour chaque marqueur et je leur attribue une influence de 0,5 chacun. 
+Ici, je veux positionner mon os entre deux marqueurs, je crée donc deux contraintes pour chaque marqueur et je leur attribue une influence de 0,5 chacun. 
 Il se peut que malgré tout l'os ne suive pas bien les marqueurs au cours de l'animation. Dans ce cas, laissez un des marqueurs avec une influence de 1.
 
  * Ajoutez une contrainte de direction, appelée *Damped track*. Associez à cette contrainte le marqueur qui correspond à la tête de votre bone, comme vu précédemment. La remarque sur le nombre de marqueurs est valable ici également.
